@@ -1,0 +1,10 @@
+#define PD3 0b00001000
+#define PB4 0b00010000
+
+DDRD |= PD3;
+DDRB |= PB4;
+
+PORTD ^= PD3;
+PORTB ^= PB4;
+
+
